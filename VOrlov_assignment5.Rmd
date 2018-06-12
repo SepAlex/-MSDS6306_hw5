@@ -94,3 +94,7 @@ df <- final[final$Gender == 'F', ]
 df <- head(df[order(df$Total, decreasing = T), c('Name', 'Total')], 10)
 write.table(df, file='data/top_10_female_names.csv', row.names = F, sep=',')
 ```
+
+## GitHub URL
+
+https://github.com/VolodymyrOrlov/-MSDS6306_hw5
